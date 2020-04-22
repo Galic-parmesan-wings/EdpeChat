@@ -22,7 +22,7 @@ class User(UserMixin, db.Model):
     image_file = db.Column(db.String(20), default='default.png')
     password_hash = db.Column(db.String(128))
     about_me = db.Column(db.String(140))
-    last_seen = db.Column(db.DATETIME, default=datetime.utcnow())
+    last_seen = db.Column(db.DateTime, default=datetime.utcnow())
     posts = db.relationship('Post', backref='author', foreign_keys='Post.user_id', lazy=True)
     comments = db.relationship('Comment', backref='c_author', foreign_keys='Comment.author_id', lazy='dynamic')
     followed = db.relationship(
