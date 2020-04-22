@@ -154,7 +154,7 @@ class Post(SearchableMixin, db.Model):
     title = db.Column(db.String(100))
     body = db.Column(db.String(140))
     post_picture = db.Column(db.String(20))
-    timestamp = db.Column(db.DATETIME, index=True, default=datetime.utcnow)
+    timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     comment = db.relationship('Comment', backref='post', foreign_keys='Comment.post_id', lazy='dynamic')
     comment_num = db.Column(db.Integer, default=0)
@@ -204,7 +204,7 @@ class Message(db.Model):
     sender_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     recipient_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     body = db.Column(db.String(140))
-    timestamp = db.Column(db.DATETIME, index=True, default=datetime.utcnow)
+    timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
 
     def __repr__(self):
         return '<Message:{}>'.format(self.body)
