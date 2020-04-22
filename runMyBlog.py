@@ -7,4 +7,4 @@ def make_shell_context():
     return {'db': db, 'User': User, 'Post': Post, 'Message': Message, 'Notification': Notification, 'Comment': Comment}
 
 
-app.run()
+
