@@ -25,8 +25,7 @@ CORS(app)
 mail = Mail(app)
 runDB = Manager(app)
 runDB.add_command('db', MigrateCommand)
-ES_HOST = {"host": "localhost", "port": 9200}
-app.elasticsearch = Elasticsearch(hosts=[ES_HOST])
+app.elasticsearch = Elasticsearch(app.config['ELASTICSEARCH_URL'])
 
 if not app.debug:
     if app.config['MAIL_SERVER']:
