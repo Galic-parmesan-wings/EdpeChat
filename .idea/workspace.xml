@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a07907c9-5c08-4f5c-a276-744599407feb" name="Default Changelist" comment="second">
       <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBlogApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runMyBlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMyBlog.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -469,7 +467,7 @@
       <workItem from="1587426452111" duration="698000" />
       <workItem from="1587427591084" duration="1013000" />
       <workItem from="1587511273566" duration="10307000" />
-      <workItem from="1587578596808" duration="8694000" />
+      <workItem from="1587578596808" duration="9418000" />
     </task>
     <servers />
   </component>
