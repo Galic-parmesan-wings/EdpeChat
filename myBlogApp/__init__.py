@@ -27,7 +27,7 @@ CORS(app)
 mail = Mail(app)
 runDB = Manager(app)
 runDB.add_command('db', MigrateCommand)
-app.elasticsearch = Elasticsearch([os.environ.get('ELASTICSEARCH_URL')], use_ssl=True, ca_certs=certifi.where())
+app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']], use_ssl=True, ca_certs=certifi.where())
 
 if not app.debug:
     if app.config['MAIL_SERVER']:
