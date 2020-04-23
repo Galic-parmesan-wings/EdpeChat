@@ -1,5 +1,7 @@
 import logging
 import os
+from urllib.parse import urlparse
+
 import certifi
 from logging.handlers import SMTPHandler, RotatingFileHandler
 
@@ -27,7 +29,11 @@ CORS(app)
 mail = Mail(app)
 runDB = Manager(app)
 runDB.add_command('db', MigrateCommand)
-app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']], use_ssl=True, ca_certs=certifi.where())
+url = urlparse(os.environ.get('ELASTICSEARCH_URL'))
+app.elasticsearch = Elasticsearch([url.host],
+    http_auth=(url.username, url.password),
+    scheme=url.scheme,
+    port=url.port,)
 
 if not app.debug:
     if app.config['MAIL_SERVER']:
