@@ -6,3 +6,4 @@ from myBlogApp.models import User, Post, Notification, Comment, Message
 def make_shell_context():
     return {'db': db, 'User': User, 'Post': Post, 'Message': Message, 'Notification': Notification, 'Comment': Comment}
 
+
