@@ -1,16 +1,18 @@
+import logging
 import os
+import certifi
+from logging.handlers import SMTPHandler, RotatingFileHandler
 
-from flask import Flask, request
-from configure import Config
-from flask_sqlalchemy import SQLAlchemy
+from elasticsearch import Elasticsearch
+from flask import Flask
+from flask_cors import CORS
+from flask_login import LoginManager
+from flask_mail import Mail
 from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager
-from flask_login import LoginManager
-from flask_cors import CORS
-from elasticsearch import Elasticsearch
-from flask_mail import Mail
-import logging
-from logging.handlers import SMTPHandler, RotatingFileHandler
+from flask_sqlalchemy import SQLAlchemy
+
+from configure import Config
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -25,7 +27,7 @@ CORS(app)
 mail = Mail(app)
 runDB = Manager(app)
 runDB.add_command('db', MigrateCommand)
-app.elasticsearch = Elasticsearch(app.config['ELASTICSEARCH_URL'])
+app.elasticsearch = Elasticsearch([app.config['ELASTICSEARCH_URL']], use_ssl=True, ca_certs=certifi.where())
 
 if not app.debug:
     if app.config['MAIL_SERVER']:

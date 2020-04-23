@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07907c9-5c08-4f5c-a276-744599407feb" name="Default Changelist" comment="second">
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.4.5.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.4.5.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.4.5.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.4.5.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.4.5.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi-2020.4.5.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/certifi/core.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBlogApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -470,7 +481,7 @@
       <workItem from="1587426452111" duration="698000" />
       <workItem from="1587427591084" duration="1013000" />
       <workItem from="1587511273566" duration="10307000" />
-      <workItem from="1587578596808" duration="18976000" />
+      <workItem from="1587578596808" duration="20752000" />
     </task>
     <servers />
   </component>
@@ -606,10 +617,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1868" height="324" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1586060572870" />
-    <state x="526" y="0" width="1230" height="1040" key="SettingsEditor" timestamp="1587334080565">
+    <state x="526" y="0" width="1230" height="1040" key="SettingsEditor" timestamp="1587613256303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="526" y="0" width="1230" height="1040" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587334080565" />
+    <state x="526" y="0" width="1230" height="1040" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587613256303" />
     <state x="2381" y="157" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580526805784" />
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1583574473639">
       <screen x="0" y="0" width="1920" height="1040" />
