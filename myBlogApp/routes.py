@@ -438,7 +438,7 @@ def send_message(recipient):
                            form=form, recipient=recipient)
 
 
-@app.route('/egg.html')
+@app.route('/.html')
 @login_required
 def messages():
     current_user.last_message_read_time = datetime.utcnow()
