@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Love U</title>
+    <link rel="icon" href="../static/icons/kiss-wink-heart-regular.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/regular.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/brands.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'newEgg12.css') }}">
+
+</head>
+<body>
+<div id="particles-js">
+{% for post in messages %}
+    <div class="row">
+        <div class="col-12">
+            <div class="bg-wrapper">
+              <div class="envelope-wrapper">
+                <div class="envelope">
+                  <div class="card">
+                    <span class="fa fa-times close-icon"></span>
+                    <div class="text">{{ post.body }}</div>
+                  </div>
+                </div>
+                <div class="heart" id="myheart"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+    {% if messages|length > 5 %}
+        <nav aria-label="...">
+            <ul class="pager">
+                <li class="previous{% if not prev_url %} disabled{% endif %}">
+                    <a href="{{ prev_url or '#' }}">
+                        <span aria-hidden="true">&larr;</span>Newer messages
+                    </a>
+                </li>
+                <li class="next{% if not next_url %} disabled{% endif %}">
+                    <a href="{{ next_url or '#' }}">
+                        Older messages <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    {% endif %}
+</div>
+<div class="row end"></div>
+<script>
+    $( document ).ready(() => {
+        $(".bg-wrapper").each(function (i) {
+            $(".heart").eq(i).click(() => {
+                $('.envelope-wrapper').eq(i).addClass('flap')
+            });
+            $(".close-icon").eq(i).click(() => {
+                $('.envelope-wrapper').eq(i).removeClass('flap')
+                $('.row').eq(i).fadeOut(800);
+            });
+        });
+    });
+</script>
+<script>
+    particlesJS.load('particles-js', '../static/json/newEgg2.json', function() {
+        console.log('callback - particles.js config loaded');
+    });
+</script>
+</body>
+</html>

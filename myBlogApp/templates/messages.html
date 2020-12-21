@@ -11,7 +11,7 @@
                         <a class="mr-2" style="font-weight: 500;" href="{{ url_for('user_posts', username=post.author.username) }}">{{ post.author.username }}</a>
                         <small class=" small-margin-control">{{ post.timestamp.strftime('%Y-%m-%d %T') }}</small>
                         <div class="dropdown">
-                             <a class="comment-color dropdown-toggle toggle-remove", id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><i class="fas fa-ellipsis-v immune-click add-padding"></i></a>
+                             <a class="comment-color dropdown-toggle toggle-remove" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><i class="fas fa-ellipsis-v immune-click add-padding"></i></a>
                             <div class="dropdown-style dropdown-menu dropdown-menu-right DD-control" aria-labelledby="navbarDropdownMenuLink2">
                                 <a class="dropdown-item dropdown-padding-control immune-click" id="deletelink" data-toggle="modal" data-target="#deleteModal" rel="11" href="#"><i class="far fa-trash-alt i-padding-control immune-click"></i>Delete</a>
                             </div>

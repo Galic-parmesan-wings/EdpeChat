@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a07907c9-5c08-4f5c-a276-744599407feb" name="Default Changelist" comment="second">
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/background_img/240px-Firefox_Logo,_2017.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/background_img/94dbd730678955.5975dbb5b428e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/background_img/b848b255028461.597382c688f54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/background_img/dfsdf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/background_img/f87b5221719449.56311b6ef41e9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/background_img/students-working-at-desk.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/icons/kiss-wink-heart-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/icons/kiss-wink-heart-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/json/Egg12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/json/newEgg2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/newEgg12.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/static/profile/0c2515f28d289a1f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myBlogApp/templates/egg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBlogApp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBlogApp/static/index13.css" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/static/index15.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBlogApp/static/json/particless.json" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/static/json/particles6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBlogApp/static/nav82.css" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/static/nav84.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBlogApp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBlogApp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBlogApp/templates/messages.html" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/templates/messages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBlogApp/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/myBlogApp/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runMyBlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMyBlog.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,16 +49,19 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MyBlog" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
-        <option value="package.json" />
-        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -167,52 +195,36 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myBlogApp/static/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\icons" />
-      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\js" />
-      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\profile_pics" />
-      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\pictures" />
-      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\background_img" />
+      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\fonts" />
       <recent name="C:\Users\Administrator\PycharmProjects\MyBlog" />
       <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\icons" />
       <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\font-family" />
-      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\json" />
-      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\icons" />
+      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\background_img" />
+      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\js" />
+      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\profile_pics" />
+      <recent name="C:\Users\Administrator\PycharmProjects\MyBlog\myBlogApp\static\pictures" />
     </key>
   </component>
   <component name="RunManager" selected="Python.runMyBlog">
-    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/myBlogApp/templates/login.html" useBuiltInWebServerPort="true">
+    <configuration name="base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/myBlogApp/templates/base.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="form" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyBlog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myBlogApp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myBlogApp/form.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="egg.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/myBlogApp/templates/egg.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="messages.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyBlog/myBlogApp/templates/messages.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -229,28 +241,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myBlogApp/models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runDB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyBlog" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,7 +286,7 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in C:/Users/Administrator/PycharmProjects/MyBlog/myBlogApp/test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MyBlog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,10 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.base.html" />
+        <item itemvalue="JavaScript Debug.messages.html" />
+        <item itemvalue="JavaScript Debug.egg.html" />
         <item itemvalue="Python.models" />
-        <item itemvalue="Python tests.Unittests in test.py" />
-        <item itemvalue="Python.form" />
-        <item itemvalue="Python.runDB" />
+        <item itemvalue="Python tests.Unittests in C:/Users/Administrator/PycharmProjects/MyBlog/myBlogApp/test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +471,36 @@
       <workItem from="1587673217059" duration="1839000" />
       <workItem from="1587675068593" duration="969000" />
       <workItem from="1587676877384" duration="1435000" />
-      <workItem from="1587679289306" duration="933000" />
+      <workItem from="1587679289306" duration="1797000" />
+      <workItem from="1588123355673" duration="15000" />
+      <workItem from="1588123471008" duration="1252000" />
+      <workItem from="1588641467712" duration="1527000" />
+      <workItem from="1588643372974" duration="994000" />
+      <workItem from="1588652734237" duration="1384000" />
+      <workItem from="1589089411051" duration="18000" />
+      <workItem from="1598296921101" duration="376000" />
+      <workItem from="1598297893130" duration="1069000" />
+      <workItem from="1598299707872" duration="768000" />
+      <workItem from="1598302223962" duration="1918000" />
+      <workItem from="1598304656891" duration="1804000" />
+      <workItem from="1598306475399" duration="1882000" />
+      <workItem from="1598308372846" duration="1795000" />
+      <workItem from="1598310186661" duration="1789000" />
+      <workItem from="1598312001402" duration="1798000" />
+      <workItem from="1598316792392" duration="1793000" />
+      <workItem from="1598318696958" duration="1795000" />
+      <workItem from="1598320507863" duration="1696000" />
+      <workItem from="1598322314834" duration="1664000" />
+      <workItem from="1598324418714" duration="1838000" />
+      <workItem from="1598326310734" duration="1794000" />
+      <workItem from="1598328116866" duration="1381000" />
+      <workItem from="1598335792220" duration="1446000" />
+      <workItem from="1598337987089" duration="876000" />
+      <workItem from="1598854835139" duration="299000" />
+      <workItem from="1603079111322" duration="26000" />
+      <workItem from="1603079457047" duration="928000" />
+      <workItem from="1603086292202" duration="599000" />
+      <workItem from="1603088101696" duration="599000" />
     </task>
     <servers />
   </component>
@@ -540,123 +560,38 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="442" y="93" key="#Deployment" timestamp="1587512700776">
+    <state x="457" y="96" key="#Notifications" timestamp="1598306506848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="442" y="93" key="#Deployment/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587512700776" />
-    <state x="452" y="96" key="#Inspections" timestamp="1585704417582">
+    <state x="457" y="96" key="#Notifications/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598306506848" />
+    <state x="705" y="132" key="#egg.html" timestamp="1598305085733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="96" key="#Inspections/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1585704417582" />
-    <state x="522" y="167" width="816" height="733" key="#Intentions" timestamp="1580515228685">
+    <state x="705" y="132" key="#egg.html/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598305085733" />
+    <state x="690" y="203" key="FileChooserDialogImpl" timestamp="1603079127736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="522" y="167" width="816" height="733" key="#Intentions/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1580515228685" />
-    <state x="668" y="177" key="#Language_Injections" timestamp="1580505285697">
+    <state x="690" y="203" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603079127736" />
+    <state width="1868" height="263" key="GridCell.Tab.0.bottom" timestamp="1598855133398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="177" key="#Language_Injections/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1580505285697" />
-    <state x="667" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587598692130">
+    <state width="1868" height="263" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598855133398" />
+    <state width="1868" height="277" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598325658558" />
+    <state width="1868" height="263" key="GridCell.Tab.0.center" timestamp="1598855133398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587598692130" />
-    <state x="690" y="299" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1580513541424">
+    <state width="1868" height="263" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598855133398" />
+    <state width="1868" height="277" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598325658558" />
+    <state width="1868" height="263" key="GridCell.Tab.0.left" timestamp="1598855133398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="299" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1580513541424" />
-    <state x="434" y="44" key="CommitChangelistDialog2" timestamp="1587599897022">
+    <state width="1868" height="263" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598855133398" />
+    <state width="1868" height="277" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598325658558" />
+    <state width="1868" height="263" key="GridCell.Tab.0.right" timestamp="1598855133398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="434" y="44" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587599897022" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1587600124762">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587600124762" />
-    <state x="615" y="295" key="EditFileWatcherDialog" timestamp="1580849913727">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="615" y="295" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1580849913727" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1580840703323">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1580840703323" />
-    <state width="1834" height="290" key="GridCell.Tab.0.bottom" timestamp="1587680325056">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1834" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587680325056" />
-    <state width="1745" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580545631495" />
-    <state width="1834" height="290" key="GridCell.Tab.0.center" timestamp="1587680325056">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1834" height="290" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587680325056" />
-    <state width="1745" height="296" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580545631495" />
-    <state width="1834" height="290" key="GridCell.Tab.0.left" timestamp="1587680325056">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1834" height="290" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587680325056" />
-    <state width="1745" height="296" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580545631495" />
-    <state width="1834" height="290" key="GridCell.Tab.0.right" timestamp="1587680325056">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1834" height="290" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587680325056" />
-    <state width="1745" height="296" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580545631495" />
-    <state width="1868" height="324" key="GridCell.Tab.1.bottom" timestamp="1586060572870">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1868" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1586060572870" />
-    <state width="1868" height="324" key="GridCell.Tab.1.center" timestamp="1586060572870">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1868" height="324" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1586060572870" />
-    <state width="1868" height="324" key="GridCell.Tab.1.left" timestamp="1586060572870">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1868" height="324" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1586060572870" />
-    <state width="1868" height="324" key="GridCell.Tab.1.right" timestamp="1586060572870">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1868" height="324" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1586060572870" />
-    <state x="526" y="0" width="1230" height="1040" key="SettingsEditor" timestamp="1587613256303">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="526" y="0" width="1230" height="1040" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587613256303" />
-    <state x="2381" y="157" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1580526805784" />
-    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1583574473639">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1583574473639" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1582603237993">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1582603237993" />
-    <state x="603" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581057882191">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="603" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1581057882191" />
-    <state x="685" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587512325280">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="685" y="416" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587512325280" />
-    <state x="2090" y="0" width="1449" height="987" key="dock-window-1" timestamp="1587581563056">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2090" y="0" width="1449" height="987" key="dock-window-1/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587581563056" />
-    <state x="429" y="107" width="1449" height="987" key="dock-window-2" timestamp="1587582606910">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="429" y="107" width="1449" height="987" key="dock-window-2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1587582606910" />
-    <state x="1990" y="255" width="1442" height="604" key="dock-window-3" timestamp="1585765381501">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1990" y="255" width="1442" height="604" key="dock-window-3/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1585765381501" />
-    <state x="567" y="64" width="786" height="912" key="find.popup" timestamp="1583394563457">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="567" y="64" width="786" height="912" key="find.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1583394563457" />
-    <state x="739" y="239" width="672" height="731" key="search.everywhere.popup" timestamp="1586201650134">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="239" width="672" height="731" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1586201650134" />
+    <state width="1868" height="263" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598855133398" />
+    <state width="1868" height="277" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1598325658558" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -671,7 +606,7 @@
     <SUITE FILE_PATH="coverage/MyBlog$Flask__myBlogApp___init___py_.coverage" NAME="Flask (myBlogApp/__init__.py) Coverage Results" MODIFIED="1580164782097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/MyBlog$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1582603146705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myBlogApp" />
     <SUITE FILE_PATH="coverage/MyBlog$models.coverage" NAME="models Coverage Results" MODIFIED="1582603406161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myBlogApp" />
-    <SUITE FILE_PATH="coverage/MyBlog$runMyBlog.coverage" NAME="runMyBlog Coverage Results" MODIFIED="1587680325046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyBlog$runMyBlog.coverage" NAME="runMyBlog Coverage Results" MODIFIED="1598854839978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyBlog$form.coverage" NAME="form Coverage Results" MODIFIED="1581552263632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myBlogApp" />
   </component>
 </project>

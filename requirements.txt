@@ -27,8 +27,8 @@ js.jquery==3.3.1
 Mako==1.1.1
 MarkupSafe==1.1.1
 numpy==1.18.1
-opencv-python==4.2.0.32
-Pillow==7.0.0
+opencv-python==4.4.0.46
+Pillow==8.0.0
 Pillow-PIL==0.1.dev0
 psycopg2==2.8.5
 PyJWT==1.7.1

@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar font-control">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <a class="navbar-brand nav-margin-control logo-style" href="{{ url_for('home') }}"><div class="logo-font glitch-effect" data-text="EDPE">edpe</div> </a>
+      <a class="navbar-brand nav-margin-control logo-style" href="{{ url_for('home') }}"><div class="logo-font glitch-effect" data-text="EDPE">EDPE</div> </a>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class=" hover-control link-control padding-control" id="homeLink" href={{ url_for("home")}}>Home</a>
@@ -14,12 +14,12 @@
       {% else %}
         <a href='{{url_for('messages')}}' class="notification">
           <i class="far fa-bell bell-size"></i>
-                            {% set new_messages = current_user.new_messages() %}
-                            <span id="message_count" class="badge"
-                                  style="visibility: {% if new_messages %}visible
-                                                     {% else %}hidden {% endif %};">
-                                {{ new_messages }}
-                            </span>
+            {% set new_messages = current_user.new_messages() %}
+            <span id="message_count" class="badge"
+                  style="visibility: {% if new_messages %}visible
+                                     {% else %}hidden {% endif %};">
+                {{ new_messages }}
+            </span>
         </a>
       {% endif %}
 

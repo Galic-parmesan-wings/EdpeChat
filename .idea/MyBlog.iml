@@ -37,6 +37,7 @@
     <orderEntry type="library" name="index" level="application" />
     <orderEntry type="library" name="emojionearea" level="application" />
     <orderEntry type="library" name="particles" level="application" />
+    <orderEntry type="library" name="sass" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />

@@ -1,0 +1,145 @@
+@font-face {
+  font-family: myFirstFont;
+  src:url("./fonts/DingYongKangYingBiKaiShu/2012DingYongKangYingBiKaiShuXinBan-2.ttf");
+}
+.bg-wrapper {
+	 height: 100vh;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 background: transparent;
+}
+ .bg-wrapper .envelope-wrapper {
+	 background: #b4d2ee;
+}
+ .bg-wrapper .envelope-wrapper .envelope {
+	 position: relative;
+	 width: 300px;
+	 height: 200px;
+     box-shadow: 13px 11px 2px 0 rgba(0, 0, 0, 0.48), -1px 0 1px -2px rgba(0, 0, 0, 0.2), 3px -2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+ .bg-wrapper .envelope-wrapper .envelope:before {
+	 content: "";
+	 position: absolute;
+	 top: 0px;
+	 z-index: 2;
+	 border-top: 105px solid #d3eafd;
+	 border-right: 150px solid transparent;
+	 border-left: 150px solid transparent;
+	 transform-origin: top;
+	 transition: all 0.5s ease-in-out 0.7s;
+}
+ .bg-wrapper .envelope-wrapper .envelope:after {
+	 content: "";
+	 position: absolute;
+	 z-index: 2;
+	 width: 0px;
+	 height: 0px;
+	 border-top: 100px solid transparent;
+	 border-right: 150px solid #b4d2ee;
+	 border-bottom: 100px solid #b4d2ee;
+	 border-left: 150px solid #b4d2ee;
+}
+ .bg-wrapper .envelope-wrapper .envelope .card {
+	 position: absolute;
+	 right: 20%;
+	 bottom: 0;
+	 width: 60%;
+	 height: 90%;
+	 background: #fff;
+	 text-align: center;
+	 transition: all 1s ease-in-out;
+	 box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	 overflow-wrap: break-word;
+	 word-break: break-all;
+}
+ .bg-wrapper .envelope-wrapper .envelope .card .close-icon {
+	 position: absolute;
+	 right: 5px;
+	 top: 5px;
+	 font-size: 10px;
+	 color: rgba(68, 68, 68, 0.7);
+	 cursor: pointer;
+}
+ .bg-wrapper .envelope-wrapper .envelope .card .text {
+	 position: absolute;
+	 top: 35%;
+	 left: 50%;
+	 color: #c51803;
+	 transform: translate(-50%, -50%);
+	 font-size: 11px;
+	 overflow-wrap: break-word;
+	 word-break: break-all;
+	font-family: myFirstFont,sans-serif;
+}
+ .bg-wrapper .envelope-wrapper .heart {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 width: 25px;
+	 height: 25px;
+	 background: #c51803;
+	 z-index: 4;
+	 transform: translate(-50%, -20%) rotate(45deg);
+	 transition: transform 0.5s ease-in-out 1s;
+	 box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+	 cursor: pointer;
+}
+ .bg-wrapper .envelope-wrapper .heart:before, .bg-wrapper .envelope-wrapper .heart:after {
+	 content: "";
+	 position: absolute;
+	 width: 25px;
+	 height: 25px;
+	 background-color: #c51803;
+	 border-radius: 50%;
+}
+ .bg-wrapper .envelope-wrapper .heart:before {
+	 top: -12.5px;
+}
+ .bg-wrapper .envelope-wrapper .heart:after {
+	 right: 12.5px;
+}
+ .bg-wrapper .flap .envelope:before {
+	 transform: rotateX(180deg);
+	 z-index: 0;
+}
+ .bg-wrapper .flap .envelope .card {
+	 bottom: 100px;
+	 transform: scale(1.5);
+	 transition-delay: 1s;
+	 overflow-wrap: break-word;
+	 word-break: break-all;
+}
+ .bg-wrapper .flap .heart {
+	 transform: rotate(90deg);
+	 transition-delay: 0.4s;
+}
+ body{
+	background: radial-gradient(ellipse at center, #1920fd 0%, rgb(236, 104, 104) 100%);
+	 overflow: hidden;
+}
+ #particles-js canvas {
+display: block;
+vertical-align: bottom;
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
+opacity: 1;
+-webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+transition: opacity .8s ease, transform 1.4s ease;
+position: fixed;
+top: 0;
+z-index: -2;
+}
+
+#particles-js {
+width: 100%;
+height: 100%;
+}
+.end{
+	background-image: url("../static/background_img/b848b255028461.597382c688f54.gif");
+	z-index: -500;
+	height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
