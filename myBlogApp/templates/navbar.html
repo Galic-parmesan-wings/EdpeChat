@@ -31,9 +31,9 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
                       {% if current_user.is_anonymous %}
-                        <img class="rounded-circle avatar" src="{{  url_for('static', filename='profile/default.png' )}}">
+                        <img alt="default avatar" class="rounded-circle avatar" src="{{  url_for('static', filename='profile/default.png' )}}">
                         {% else %}
-                       <img class="rounded-circle avatar" src="{{  url_for('static', filename='profile/' + current_user.image_file)}}">
+                       <img alt="avatar" class="rounded-circle avatar" src="{{  url_for('static', filename='profile/' + current_user.image_file)}}">
                         {% endif %}
                     </a>
                     <div class="dropdown-menu dropdown-menu-left dropdown-style" aria-labelledby="navbarDropdownMenuLink1">
@@ -49,7 +49,7 @@
 
 {% include 'layout1.html' %}
 {% include 'layout-for-login.html' %}
-{% include'lay-out-for-signup.html' %}
+{% include 'lay-out-for-signup.html' %}
 {% include 'modal-for-login.html' %}
 {% include 'layout-for-password-reset-request.html' %}
   <script>
@@ -86,7 +86,7 @@
                             since = notifications[i].timestamp;
                         }
                     }
-                );
+                ); 
             }, 8000);
         });
         {% endif %}

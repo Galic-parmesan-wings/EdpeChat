@@ -4,7 +4,7 @@
     {% for post in posts.items %}
     <article class="media content-section border-width-control index-check index-check-explore art-link">
         <a class="mr-1"href="{{ url_for('user_posts', username=post.author.username) }}">
-            <img class="rounded-circle article-img" src="{{ url_for('static', filename = 'profile/' + post.author.image_file) }}"></a>
+            <img alt="avatar" class="rounded-circle article-img" src="{{ url_for('static', filename = 'profile/' + post.author.image_file) }}"></a>
         <div class="media-body">
             <div class="article-metadata space-control">
                 <a class="mr-2" href="{{ url_for('user_posts', username=post.author.username) }}">{{ post.author.username }}</a>

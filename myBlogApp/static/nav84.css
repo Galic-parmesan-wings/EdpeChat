@@ -81,7 +81,7 @@
     color: white;
 }
 .navbar-brand:focus, .navbar-brand:hover{
-    color: yellow;
+    color: #3333;
 }
 .avatar{
   height: 43px;

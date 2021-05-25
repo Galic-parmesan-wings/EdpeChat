@@ -1,7 +1,7 @@
 .hero {
     /* Sizing */
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 
     /* Flexbox stuff */
     display: flex;
@@ -13,7 +13,7 @@
     color: white; /* ADD THIS LINE */
 
     /* Background styles */
-    background-image: url('../static/background_img/cybercity.jpg');
+    background-image: url('../static/background_img/cyberpunk.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

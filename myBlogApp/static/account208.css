@@ -120,7 +120,7 @@
 
     @media (min-width: 992px){
     .container.bigger-container, .container-lg, .container-md, .container-sm {
-        max-width: 50%;
+      max-width: 50%;
       padding: 2px 9px
 
     }
