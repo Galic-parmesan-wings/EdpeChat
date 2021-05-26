@@ -5,7 +5,7 @@ A **Python Flask-based** Twitter-clone social media web application
 ## Getting Started
 ### Prerequisite
 
- - [Python](https://www.python.org/downloads/)
+ - [Python](https://www.python.org/downloads/)<br />
 	Python 3.7 or above needed <br />
 	To check the version installed, open a terminal window and entering the following:
 	``python --version``
