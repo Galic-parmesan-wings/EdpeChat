@@ -5,7 +5,7 @@ blinker==1.4
 bp==0.0.4
 certifi==2020.4.5.1
 Click==7.0
-Django==3.1.4
+Django==3.1.8
 django-appconf==1.0.3
 dominate==2.4.0
 elasticsearch==7.6.0
@@ -13,7 +13,7 @@ fanstatic==1.1
 Flask==1.1.1
 Flask-Babel==1.0.0
 Flask-Bootstrap==3.3.7.1
-Flask-Cors==3.0.8
+Flask-Cors==3.0.10
 Flask-Login==0.4.1
 Flask-Mail==0.9.1
 Flask-Migrate==2.5.2
@@ -22,13 +22,13 @@ Flask-SQLAlchemy==2.4.1
 Flask-WTF==0.14.3
 gunicorn==20.0.4
 itsdangerous==1.1.0
-Jinja2==2.10.3
+Jinja2==3.0.1
 js.jquery==3.3.1
 Mako==1.1.1
-MarkupSafe==1.1.1
+MarkupSafe==2.0.1
 numpy==1.18.1
 opencv-python==4.4.0.46
-Pillow==8.0.0
+Pillow==8.2.0
 Pillow-PIL==0.1.dev0
 psycopg2==2.8.5
 PyJWT==1.7.1
