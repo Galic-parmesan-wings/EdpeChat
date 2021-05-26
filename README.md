@@ -19,7 +19,7 @@ A **Python Flask-based** Twitter-clone social media web application
 ### Environment Setup
  - Activate Python virtual environment
  Open a terminal cd EdpeChat project directory, run
-  ``$ source venv/bin/activate``
+  ``$ source venv/bin/activate``<br />
  If it works, you should see the prompt command like
  ``(venv)$_`` 
  > Note: If you are using a Microsoft Windows command prompt window, the activation command is slightly different: 
