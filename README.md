@@ -1,7 +1,7 @@
 
 # EdpeChat
 ## Overviews
-A **Python Flask-based** Twitter-clone social media web application
+A **Python Flask-based** Twitter-clone social media web application </br>
 [Full Demo](https://edpegg.herokuapp.com/) </br>
 ![full-demo](Full Demo/full-demo.png)
 ## Getting Started
