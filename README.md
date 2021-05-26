@@ -27,7 +27,7 @@ A **Python Flask-based** Twitter-clone social media web application </br>
   ``$ source venv/bin/activate``<br />
  If it works, you should see the prompt command like
  ``(venv)$_`` 
- > Note: If you are using a Microsoft Windows command prompt window, the activation command is slightly different: 
+ > Note: If you are using a Microsoft Windows command prompt window, the activation command is slightly different: </br>
  > ``venv\Scripts\activate``<br />
  > ``(venv) C:\EdpeChat>``
 
