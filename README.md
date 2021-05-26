@@ -3,7 +3,10 @@
 ## Overviews
 A **Python Flask-based** Twitter-clone social media web application </br>
 ### [Full Demo](https://edpegg.herokuapp.com/) </br>
+> Loading will take a while
+
 ![full-demo](/screenshots/full-demo.png)
+</br>
 ## Getting Started
 ### Prerequisite
 
