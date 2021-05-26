@@ -31,9 +31,15 @@ A **Python Flask-based** Twitter-clone social media web application </br>
  > ``venv\Scripts\activate``<br />
  > ``(venv) C:\EdpeChat>``
 
+### Run it!
 
- 
-### Run
+ - Set ``FLASK_APP`` enviroment variable: </br>
+ ``(venv) $ export FLASK_APP=runMyBlog.py``
+ > Note:  If you are using a Microsoft Windows command prompt window, use `set` instead of `export`: </br>
+ > `(venv) $ set FLASK_APP=runMyBlog.py`
+ - Run the app: </br>
+ `(venv) $ flask run`
+ -  It should then be running on  [http://127.0.0.1:5000/](http://127.0.0.1:5000/)  (Press CTRL+C to quit)
 
 	 
 ## Funtionalies
