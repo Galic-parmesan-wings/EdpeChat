@@ -89,4 +89,4 @@ A **Python Flask-based** Twitter-clone social media web application </br>
 ![SignUp-demo](/screenshots/SignUp.gif)
 - <a name="myfootnote2">Login demo: </a>
 <br></br>
-![SignUp-demo](/screenshots/SignUp.gif)
+![Login-demo](/screenshots/Login.gif)
