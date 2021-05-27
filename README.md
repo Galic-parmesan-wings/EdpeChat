@@ -3,7 +3,7 @@
 ## Overviews
 A **Python Flask-based** Twitter-clone social media web application </br>
 ### [Full Demo](https://edpegg.herokuapp.com/) </br>
-> Loading will take a while
+> Loading may need to take a while
 
 ![full-demo](/screenshots/full-demo.png)
 </br>
@@ -52,7 +52,7 @@ A **Python Flask-based** Twitter-clone social media web application </br>
 	 - Server-side validations
 		 - Username must be unique
 		 - Email address must be unique
- - Login
+ - Login <sup>[see demo](#myfootnote2)</sup>
 	 - Login failure triggers error message "Invalid Password or Username"
 	 - Password reset - Automated email sending
  - Profile-Managing
@@ -84,6 +84,9 @@ A **Python Flask-based** Twitter-clone social media web application </br>
  - Search
  
 ## Demo
-- <a name="myfootnote1">Sign up Demo: </a>
+- <a name="myfootnote1">Sign up demo: </a>
+<br></br>
+![SignUp-demo](/screenshots/SignUp.gif)
+- <a name="myfootnote2">Login demo: </a>
 <br></br>
 ![SignUp-demo](/screenshots/SignUp.gif)
