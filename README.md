@@ -108,6 +108,6 @@ A **Python Flask-based** Twitter-clone social media web application </br>
 - <a name="myfootnote8">Search demo: </a>
 <br></br>
 ![SignUp-demo](/screenshots/Search.gif)
-- <a name="myfootnote9">Passwod reset demo: </a>
+- <a name="myfootnote9">Password reset demo: </a>
 <br></br>
 ![SignUp-demo](/screenshots/Password-reset.gif)
