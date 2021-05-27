@@ -19,24 +19,24 @@ A **Python Flask-based** Twitter-clone social media web application </br>
 ### Dependencies
 	
  - Site-packages are already included in the folder "EdpeChat\venv\Lib\site-packages"
- > Alternatively, open a terminal cd EdpeChat project directory, run  ``pip install > requirements.txt`` to install dependencies manually
+ > Alternatively, open a terminal cd EdpeChat project directory, run  ``pip install -r requirements.txt`` to install dependencies manually
  
 ### Environment Setup
- - Activate Python virtual environment
+ - Activate Python virtual environment <br />
  Open a terminal cd EdpeChat project directory, run
   ``$ source venv/bin/activate``<br />
  If it works, you should see the prompt command like
  ``(venv)$_`` 
  > Note: If you are using a Microsoft Windows command prompt window, the activation command is slightly different: </br>
- > ``venv\Scripts\activate``<br />
+ > ``C:\EdpeChat> venv\Scripts\activate``<br />
  > ``(venv) C:\EdpeChat>``
-
-### Run it!
-
+ 
  - Set ``FLASK_APP`` enviroment variable: </br>
  ``(venv) $ export FLASK_APP=runMyBlog.py``
  > Note:  If you are using a Microsoft Windows command prompt window, use `set` instead of `export`: </br>
- > `(venv) $ set FLASK_APP=runMyBlog.py`
+ > `(venv) C:\EdpeChat> set FLASK_APP=runMyBlog.py`
+
+### Run it!
  - Run the app: </br>
  `(venv) $ flask run`
  -  It should then be running on  [http://127.0.0.1:5000/](http://127.0.0.1:5000/)  (Press CTRL+C to quit)
