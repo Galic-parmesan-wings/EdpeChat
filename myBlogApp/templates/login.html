@@ -1,7 +1,7 @@
 <div class="row no-gutters gutters-height">
     <div class="d-none d-md-flex col-md-2 col-lg-4 size-change-small bg-image"></div>
     <div class="col-md-8 col-lg-8 white-background size-change-big">
-        <form action="{{ url_for('login') }}" method="post" class="needs-validation" id="login-form">
+        <form action="{{ url_for('login')}}" method="post" class="needs-validation" id="login-form">
           <h3 class="login-heading mb-4 heading-margin-change new-location">Welcome</h3>
           {{ form.hidden_tag() }}
           <div class="input-group" style="padding-bottom: 5px">
