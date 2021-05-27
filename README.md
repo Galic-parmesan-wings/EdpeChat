@@ -43,7 +43,7 @@ A **Python Flask-based** Twitter-clone social media web application </br>
 
 	 
 ## Funtionalies
- - Sign up
+ - Sign up <sup>[see demo](#myfootnote1)</sup>
 	 - Client-side validations
 		 - Username must be at least four characters 
 		 - Email address must be in correct format
@@ -84,5 +84,6 @@ A **Python Flask-based** Twitter-clone social media web application </br>
  - Search
  
 ## Demo
-- Sign Up
+- <a name="myfootnote1">Sign up Demo: </a>
+<br></br>
 ![SignUp-demo](/screenshots/SignUp.gif)
