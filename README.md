@@ -84,4 +84,5 @@ A **Python Flask-based** Twitter-clone social media web application </br>
  - Search
  
 ## Demo
-
+- Sign Up
+![SignUp-demo](/screenshots/SignUp.gif)
