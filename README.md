@@ -54,17 +54,17 @@ A **Python Flask-based** Twitter-clone social media web application </br>
 		 - Email address must be unique
  - Login <sup>[see demo](#myfootnote2)</sup>
 	 - Login failure triggers error message "Invalid Password or Username"
-	 - Password reset - Automated email sending
+	 - Password reset - Automated email sending <sup>[see demo](#myfootnote9)</sup>
  - Profile-Managing
-	 - User info Editing
+	 - User info Editing <sup>[see demo](#myfootnote3)</sup>
 		 - Avatar
 		 - Username
 		 - Email Address
 		 - About me
-	- Followings and followers
+	- Followings and followers <sup>[see demo](#myfootnote4)</sup>
 		- unfollow 
 		- follow back
- - Post
+ - Post <sup>[see demo](#myfootnote5)</sup>
 	 - Create
 		 - Title 
 		 - content
@@ -72,16 +72,16 @@ A **Python Flask-based** Twitter-clone social media web application </br>
 			 - Picture
 	 - Delete
 	 
- - Comment & Reply   
+ - Comment & Reply <sup>[see demo](#myfootnote6)</sup>   
 	 - Like ![like-icon](https://img.icons8.com/material-sharp/24/000000/facebook-like--v1.png%22)
 	 - Comment
 	 - Reply
- - Messaging
+ - Messaging <sup>[see demo](#myfootnote7)</sup>
 	 - Send
 	 - Receive
 		 - Notification
 		 - Read
- - Search
+ - Search <sup>[see demo](#myfootnote8)</sup>
  
 ## Demo
 - <a name="myfootnote1">Sign up demo: </a>
@@ -90,3 +90,24 @@ A **Python Flask-based** Twitter-clone social media web application </br>
 - <a name="myfootnote2">Login demo: </a>
 <br></br>
 ![Login-demo](/screenshots/Login.gif)
+- <a name="myfootnote3">Profile-creating demo: </a>
+<br></br>
+![SignUp-demo](/screenshots/Profile-creating.gif)
+- <a name="myfootnote4">Follow & Unfollow demo: </a>
+<br></br>
+![SignUp-demo](/screenshots/Following1.gif)
+- <a name="myfootnote5">Post-creating demo: </a>
+<br></br>
+![SignUp-demo](/screenshots/Post.gif)
+- <a name="myfootnote6">Comment & reply demo: </a>
+<br></br>
+![SignUp-demo](/screenshots/Comment2.gif)
+- <a name="myfootnote7">Message send & receive demo: </a>
+<br></br>
+![SignUp-demo](/screenshots/Messaging.gif)
+- <a name="myfootnote8">Search demo: </a>
+<br></br>
+![SignUp-demo](/screenshots/Search.gif)
+- <a name="myfootnote9">Passwod reset demo: </a>
+<br></br>
+![SignUp-demo](/screenshots/Password-reset.gif)
