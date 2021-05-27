@@ -55,7 +55,7 @@ A **Python Flask-based** Twitter-clone social media web application </br>
  - Login <sup>[see demo](#myfootnote2)</sup>
 	 - Login failure triggers error message "Invalid Password or Username"
 	 - Password reset - Automated email sending <sup>[see demo](#myfootnote9)</sup>
-	 > If you do not receive the password reset email, check Spam
+	 > If you do not receive the password reset email, please check Spam
  - Profile-Managing
 	 - User info Editing <sup>[see demo](#myfootnote3)</sup>
 		 - Avatar
