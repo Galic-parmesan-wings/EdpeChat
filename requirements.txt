@@ -3,7 +3,7 @@ asgiref==3.3.1
 Babel==2.9.1
 blinker==1.4
 bp==0.0.4
-certifi==2020.4.5.1
+certifi==2022.12.7
 Click==7.0
 Django==3.1.14
 django-appconf==1.0.3
