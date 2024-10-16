@@ -5,7 +5,7 @@ blinker==1.4
 bp==0.0.4
 certifi==2022.12.7
 Click==7.0
-Django==3.1.14
+Django==4.2.16
 django-appconf==1.0.3
 dominate==2.4.0
 elasticsearch==7.6.0
